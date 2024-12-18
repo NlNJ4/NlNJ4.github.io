@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Project</title>
 </head>
 <body>
     <nav class="h-24 flex justify-center items-center px-4 ">
@@ -13,13 +13,13 @@
           <li><a href="index.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Home</a></li>
           <li><a href="#about" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">About</a></li>
           <li><a href="/project.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Project</a></li>
-          <li><a href="/contact.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Contact</a></li>
+          <li><a href="/profile.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Profile</a></li>
     </nav>
     <section>
         <div class="flex justify-center mt-12 text-6xl">PROJECTS</div>
         <div class="flex justify-center mt-12 items-center">
             <ul class="flex space-x-40 text-black ">
-                <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('aib')"><p>Ai builder</p></li>
+                <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('aib')"><p>Ai Builder</p></li>
                 <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('delta')"><p>Delta Robot</p></li>
                 <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('rac')"><p>RAC</p></li>
             </ul>
@@ -29,16 +29,23 @@
                 <div class="flex justify-center text-6xl mt-4">
                     <h1>Ai Builder</h1>
                 </div>
-                <div class="flex mt-12 justify-center items-center">
+                <div class="flex mt-8 justify-center items-center">
                     <img src="/image/Aibuilder.jpg" alt="" class="w-4/5 h-auto border border-black">
                 </div>
                 <div class="m-12">The purpose of the AI Builder project is to recommend desserts for users who are unsure of what to eat but have specific preferences in mind. For instance, a user might simply think, "I feel like eating something with chocolate," and the system will suggest desserts tailored to their cravings.</div>
+                <div class="ml-12 flex justify-start items-center">
+                    <ul class="flex space-x-2">
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Python</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Streamlit</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Machine Learning</p></li>
+                    </ul>
+                </div>                
                 <div class="m-12 flex justify-center items-center">
                     <ul class="flex space-x-8">
                         <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
                             <a href="https://ai-builders.github.io/showcase/2024/27-khathathorn-jongkohpo"target="_blank" class="flex items-center">
                                 <img src="image/aib.png" alt="" class="h-12 w-auto object-contain">
-                                <p>Ai builder</p>
+                                <p>Ai Builder</p>
                             </a> 
                         </li>
                         <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
@@ -53,7 +60,6 @@
                                 <p>GitHub</p>
                             </a>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
@@ -63,27 +69,42 @@
                 <div class="flex justify-center text-6xl mt-4">
                     <h1>Delta robot</h1>
                 </div>
-                <div class="flex mt-12 justify-center items-center">
+                <div class="flex mt-8 justify-center items-center">
                     <img src="/image/Delta robot for human rehabilitation therapy.jpg" alt="" class="w-4/5 h-auto border border-black">
                 </div>
                 <div class="m-12">The purpose of this project is to build a Delta robot model that is more affordable than the market alternatives, while being easy to assemble and portable. This prototype can be used for a variety of tasks, offering a cost-effective solution for robotic applications and providing flexibility for further development and testing.</div>
-            </div>
+                <div class="ml-12 flex justify-start items-center mb-12">
+                    <ul class="flex space-x-2">
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">C++</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Arduino</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Robotic</p></li>
+                    </ul>
+                </div>  
+            </div>  
         </div>
         <div id="rac" class="px-[25%] mt-12 ">
             <div class="border border-black-300 rounded-2xl shadow-2xl">
                 <div class="flex justify-center text-6xl mt-4">
                     <h1>RAC</h1>
                 </div>
-                <div class="flex mt-12 justify-center items-center">
+                <div class="flex mt-8 justify-center items-center">
                     <img src="/image/REAL_RAC_POSTER.jpg" alt="" class="w-4/5 h-auto border border-black">
                 </div>
                 <div class="m-12">The purpose of this project is to compare trading profits between Differential Evolution and Machine Learning, using data derived from signals. The project aims to analyze how these two approaches perform in trading scenarios and determine which method yields better results in terms of profit generation.</div>
+                <div class="ml-12 flex justify-start items-center">
+                    <ul class="flex space-x-2">
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Python</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Machine Learning</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Scikit Learn</p></li>
+                        <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Optimization Algorithm</p></li>
+                    </ul>
+                </div>  
                 <div class="m-12 flex justify-center items-center">
                     <ul class="flex space-x-8">
                         <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
                             <a href="https://www.researchgate.net/publication/380765304_A_Comprehensive_Approach_of_Algorithmic_Trading_System_based_on_Technical_Analysis"target="_blank" class="flex items-center">
                                 <img src="image/researchgate.png" alt="" class="h-12 w-auto object-contain">
-                                <p>researchgate</p>
+                                <p>Researchgate</p>
                             </a> 
                         </li>
                     </ul>
