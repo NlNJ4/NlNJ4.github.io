@@ -5,49 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Profile</title>
+    <title>Responsive Profile</title>
 </head>
 <body>
     <nav class="h-24 flex justify-center items-center px-4">
-        <ul class="flex space-x-8 text-black">
-          <li><a href="index.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Home</a></li>
-          <li><a href="/about.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">About</a></li>
-          <li><a href="/project.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Project</a></li>
-          <li><a href="/profile.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Profile</a></li>
+        <ul class="flex flex-wrap space-x-4 sm:space-x-8 text-black">
+            <li><a href="index.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Home</a></li>
+            <li><a href="/about.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">About</a></li>
+            <li><a href="/project.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Project</a></li>
+            <li><a href="/profile.html" class="px-4 py-2 border border-black rounded-full border-emerald-200 hover:border-4 bg-emerald-200 hover:bg-emerald-300 hover:border-emerald-300 hover:drop-shadow-xl">Profile</a></li>
         </ul>
     </nav>
-    <section class="px-[20%] mt-12">
+    <section class="px-4 sm:px-[10%] lg:px-[20%] mt-12">
         <div class="border border-black rounded-2xl shadow-2xl p-8">
-            <div class="flex justify-between items-start">
-                <div class="w-1/3 flex justify-start">
-                    <img src="image/ninja.JPG" alt="Ninja" class="rounded-full w-full h-auto object-cover shadow-xl border border-black">
+            <div class="flex flex-wrap justify-between items-start">
+                <div class="w-full sm:w-1/3 flex justify-center sm:justify-start">
+                    <img src="image/ninja.JPG" alt="Ninja" class="rounded-full w-2/3 sm:w-full h-auto object-cover shadow-xl border border-black">
                 </div>
-                <div class="w-2/3 pl-8 pt-8 flex flex-col justify-start items-start">
-                    <h1 class="text-4xl font-bold">Khathathorn Jongkohpo</h1>
+                <div class="w-full sm:w-2/3 pl-0 sm:pl-8 pt-8 sm:pt-0 flex flex-col items-center sm:items-start">
+                    <h1 class="text-3xl sm:text-4xl font-bold text-center sm:text-left">Khathathorn Jongkohpo</h1>
                     <p class="mt-4 text-lg">Nickname : Ninja</p>
                     <p class="text-lg">Birthday : 17 September 2005</p>
                     <p class="text-lg">Tel : (+66) 93-007-7833</p>
                     <p class="text-lg">Email : kkeaaphothi@gmail.com</p>
                     <p class="text-lg">Skill : C, C++ , Python, HTML, CSS, JavaScript</p>
                     <p class="text-lg">Libraries : Pytorch, Beautiful Soup, Selenium, Pandas</p>
-                    <p class="text-lg pl-[13%]">Matplotlib, Plotly, Streamlit</p>
+                    <p class="text-lg">Matplotlib, Plotly, Streamlit</p>
                     <p class="text-lg">Framework : Tailwind</p>
                 </div>
             </div>
-            <div class="flex justify-center pt-8 space-x-4">
-                <div class="h-16 w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
+            <div class="flex flex-wrap justify-center pt-8 gap-4">
+                <div class="h-16 w-full sm:w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
                     <a href="https://www.facebook.com/kanok.kopho/" target="_blank" class="flex justify-center items-center">
                         <img src="/image/2023_Facebook_icon.svg" alt="Facebook" class="w-5">
                         <p class="pl-4">Kanok Kohpo</p>
                     </a>
                 </div>
-                <div class="h-16 w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
+                <div class="h-16 w-full sm:w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
                     <a href="https://www.instagram.com/kanokkohpo/" target="_blank" class="flex justify-center items-center">
                         <img src="/image/instagram.png" alt="Instagram" class="w-5">
                         <p class="pl-4">kanokkohpo</p>
                     </a>
                 </div>
-                <div class="h-16 w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
+                <div class="h-16 w-full sm:w-72 border border-black rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out">
                     <a href="https://github.com/NlNJ4" target="_blank" class="flex justify-center items-center">
                         <img src="image/github.jpg" alt="GitHub" class="w-5">
                         <p class="pl-4">NlNJ4</p>

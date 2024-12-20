@@ -17,13 +17,19 @@
     </nav>
     <section>
         <div class="flex justify-center mt-12 text-6xl">PROJECTS</div>
-        <div class="flex justify-center mt-12 items-center">
-            <ul class="flex space-x-40 text-black ">
-                <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('aib')"><p>Ai Builder</p></li>
-                <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('delta')"><p>Delta Robot</p></li>
-                <li class="h-16 w-72 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 hover:rotate-3d transition-all duration-300 ease-in-out" onclick="ScrollToTopic('rac')"><p>RAC</p></li>
+        <div class="flex justify-center mt-12 items-center flex-col md:flex-row md:items-center">
+            <ul class="flex flex-col space-y-4 text-black md:flex-row md:space-x-20 md:space-y-0">
+                <li class="h-16 w-72 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out" onclick="ScrollToTopic('aib')">
+                    <p>Ai Builder</p>
+                </li>
+                <li class="h-16 w-72 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out" onclick="ScrollToTopic('delta')">
+                    <p>Delta Robot</p>
+                </li>
+                <li class="h-16 w-72 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-2 transition-all duration-300 ease-in-out" onclick="ScrollToTopic('rac')">
+                    <p>RAC</p>
+                </li>
             </ul>
-        </div>
+        </div>        
         <div id="aib" class="px-[25%] mt-12">
             <div class="border border-black-300 rounded-2xl shadow-2xl">
                 <div class="flex justify-center text-6xl mt-4">
@@ -34,34 +40,34 @@
                 </div>
                 <div class="m-12">The purpose of the AI Builder project is to recommend desserts for users who are unsure of what to eat but have specific preferences in mind. For instance, a user might simply think, "I feel like eating something with chocolate," and the system will suggest desserts tailored to their cravings.</div>
                 <div class="ml-12 flex justify-start items-center">
-                    <ul class="flex space-x-2">
+                    <ul class="flex flex-col space-y-4 sm:flex-row md:space-y-0 md:space-x-2">
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Python</p></li>
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Streamlit</p></li>
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Machine Learning</p></li>
                     </ul>
                 </div>                
                 <div class="m-12 flex justify-center items-center">
-                    <ul class="flex space-x-8">
-                        <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
-                            <a href="https://ai-builders.github.io/showcase/2024/27-khathathorn-jongkohpo"target="_blank" class="flex items-center">
+                    <ul class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-8">
+                        <li class="h-16 w-48 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 transition-all duration-500 ease-in-out">
+                            <a href="https://ai-builders.github.io/showcase/2024/27-khathathorn-jongkohpo" target="_blank" class="flex items-center">
                                 <img src="image/aib.png" alt="" class="h-12 w-auto object-contain">
-                                <p>Ai Builder</p>
-                            </a> 
+                                <p class="ml-2">Ai Builder</p>
+                            </a>
                         </li>
-                        <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
+                        <li class="h-16 w-48 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 transition-all duration-500 ease-in-out">
                             <a href="https://medium.com/@kkeaaphothi/dessert-recommendation-base-on-user-requirement-b8f172600abe" target="_blank" class="flex items-center">
                                 <img src="image/medium.jpg" alt="" class="h-12 w-auto object-contain mr-4">
                                 <p>medium</p>
                             </a>
                         </li>
-                        <li class="h-16 w-48 border border-black-300 rounded-ls flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 hover:rotate-3d transition-all duration-500 ease-in-out">
+                        <li class="h-16 w-48 border border-black-300 rounded-lg flex items-center justify-center shadow-inner shadow-lg transform hover:scale-110 hover:translate-y-1 transition-all duration-500 ease-in-out">
                             <a href="https://github.com/NlNJ4/aibuilder-deploy" target="_blank" class="flex items-center">
                                 <img src="image/github.jpg" alt="GitHub" class="h-12 w-auto object-contain mr-4">
                                 <p>GitHub</p>
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div>                
             </div>
         </div>
         <div id="delta" class="px-[25%] mt-12">
@@ -92,7 +98,7 @@
                 </div>
                 <div class="m-12">The purpose of this project is to compare trading profits between Differential Evolution and Machine Learning, using data derived from signals. The project aims to analyze how these two approaches perform in trading scenarios and determine which method yields better results in terms of profit generation.</div>
                 <div class="ml-12 flex justify-start items-center">
-                    <ul class="flex space-x-2">
+                    <ul class="flex flex-col space-y-4 sm:flex-row md:space-y-0 md:space-x-2">
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Python</p></li>
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Machine Learning</p></li>
                         <li class="w-auto border border-black rounded-lg bg-gray-200 hover:bg-gray-300"><p class="mx-1">Scikit Learn</p></li>
